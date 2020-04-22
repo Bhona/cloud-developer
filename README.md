@@ -15,7 +15,7 @@ To run locally: add them in `~/.profile` & source ~/.profile
       POSTGRESS_PASSWORD: $POSTGRESS_PASSWORD 
       POSTGRESS_DATABASE: $POSTGRESS_DATABASE 
       POSTGRESS_HOST: $POSTGRESS_HOST 
-      AWS_REGION: $AWS_REGION 
+      AWS_REGION: $AWS_REGION  
       AWS_PROFILE: $AWS_PROFILE 
       AWS_MEDIA_BUCKET: $AWS_MEDIA_BUCKET
       JWT_SECRET: $JWT_SECRET
@@ -61,11 +61,7 @@ https://github.com/Bhona/cloud-developer
 2. Updated the deployment file and kubectl apply -f ${deployment}.yaml 
 3. `Deployment ussign new image`: https://drive.google.com/open?id=1VLdMkerNG6-UtO3A70kNi_2ywivlofiP
 
-Screenshot of backend-feed pods being recreated with new tag: https://share.getcloudapp.com/xQugj94z
-
-Alternatively, update the `${deployment}.yaml` (e.g. uncomment code in `backend-feed-deployment.yaml` to include a rollingUpdate strategy
-
 ## Travis CI/CD
 1. See `.travis.yml`
-2. Screenshot: https://share.getcloudapp.com/WnuNkwY6
-151.101.4.133
+2. travis working: https://drive.google.com/open?id=1Pwz923MApaoeOfipbx7y-2EEwFWqmznM 
+                   https://drive.google.com/open?id=1z4QW8Xzyqhb6cMIljHJ9mOaCBObwxjLj
